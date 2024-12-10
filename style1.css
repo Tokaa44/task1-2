@@ -1,0 +1,65 @@
+.bg{
+    background-color: rgb(25, 32, 46);
+}
+.div1{
+    padding: 30px 100px;
+    display: flex;
+}
+#img{
+    border-radius: 50%;
+    border: solid rgb(74, 64, 124);
+    width: 150px;
+}
+
+.style1{
+    width: 20%;
+}
+.style2{
+    width: 80%;
+    padding: 30px;
+    font-family: Bahnschrift;
+}
+h2{
+    color: white;
+}
+h3{
+    color: grey;
+}
+.font1{
+    font-family: Bahnschrift;
+    color: white;
+    font-size: 180%;
+}
+.div2{
+    padding: 0px 100px;
+}
+.font2{
+    font-family: Bahnschrift;
+    color: rgb(180, 180, 180);
+    font-size: 100%;
+}
+
+@media (max-width: 600px){
+    h2,h3{
+        font-size: 15px;
+    }
+    .div1{
+        padding: 10px 30px;
+    }
+    #img{
+        width: 100px;
+    }
+    .style2{
+        margin-left: 50px;
+    }
+    .font1{
+        font-size: 20px;
+    }
+    .font2{
+        font-size: 15px;
+
+    }
+    .div2{
+        padding: 0% 10%;
+    }
+}
